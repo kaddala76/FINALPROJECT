@@ -68,15 +68,24 @@ struct bookPage: View {
                     
                     if selection == "Romance" && ageSelection == "10-12" {
                         NavigationLink(destination: romanceGroup1()) {
-                            Text("Submit")
+                            Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     } else if selection == "Romance" && ageSelection == "13-16" {
                         NavigationLink(destination: romanceGroup2()) {
-                            Text("Submit")
+                            Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     } else if selection == "Romance" && ageSelection == "17+" {
                         NavigationLink(destination: romanceGroup3()) {
-                            Text("Submit")
+                            Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     }
                     //mystery
@@ -90,10 +99,16 @@ struct bookPage: View {
                     } else if selection == "Mystery" && ageSelection == "13-16" {
                         NavigationLink(destination: mysteryGroup2()) {
                             Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     } else if selection == "Mystery" && ageSelection == "17+" {
                         NavigationLink(destination: mysteryGroup3()) {
                             Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     }
                     
@@ -101,14 +116,23 @@ struct bookPage: View {
                     if selection == "Fantasy" && ageSelection == "10-12" {
                         NavigationLink(destination: fantasyGroup1()) {
                             Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     } else if selection == "Fantasy" && ageSelection == "13-16" {
                         NavigationLink(destination: fantasyGroup2()) {
                             Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     } else if selection == "Fantasy" && ageSelection == "17+" {
                         NavigationLink(destination: fantasyGroup3()) {
                             Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     }
                     
@@ -116,14 +140,23 @@ struct bookPage: View {
                     if selection == "sciFi" && ageSelection == "10-12" {
                         NavigationLink(destination: sciFiGroup1()) {
                             Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     } else if selection == "sciFi" && ageSelection == "13-16" {
                         NavigationLink(destination: sciFiGroup2()) {
                             Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     } else if selection == "sciFi" && ageSelection == "17+" {
-                        NavigationLink(destination: fantasyGroup3()) {
+                        NavigationLink(destination: sciFiGroup3()) {
                             Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     }
                     
@@ -131,26 +164,44 @@ struct bookPage: View {
                     if selection == "thriller" && ageSelection == "10-12" {
                         NavigationLink(destination: thrillerGroup1()) {
                             Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     } else if selection == "thriller" && ageSelection == "13-16" {
                         NavigationLink(destination: thrillerGroup2()) {
                             Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     } else if selection == "thriller" && ageSelection == "17+" {
                         NavigationLink(destination: thrillerGroup3()) {
                             Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     } else if selection == "nonFic" && ageSelection == "10-12" {
                         NavigationLink(destination: nonFicGroup1()) {
                             Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     } else if selection == "nonFic" && ageSelection == "13-16" {
                         NavigationLink(destination: nonFicGroup2()) {
                             Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     } else if selection == "nonFic" && ageSelection == "17+" {
                         NavigationLink(destination: nonFicGroup3()) {
                             Image("submitButton")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
                         }
                     }
                     

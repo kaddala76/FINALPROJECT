@@ -19,6 +19,7 @@ struct ContentView: View {
                 NavigationLink(destination: homePage())
                 {
                     Image("unwindLogo")
+                    Text("Books, Fashion, and Music For You!")
                 }
                 
                 

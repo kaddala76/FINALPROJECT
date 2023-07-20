@@ -1,20 +1,18 @@
-//
-//  rap.swift
-//  FINALPROJECT
-//
-//  Created by Scholar on 7/18/23.
-//
-
 import SwiftUI
-
 struct rap: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  var body: some View {
+    ZStack {
+      Color(red: 0.99607843137, green: 0.94509803921, blue: 0.98431372549)
+      Image("rapArtists")
+       .resizable(resizingMode: .stretch)
+       .aspectRatio(contentMode: .fit)
+       .padding(.bottom)
+     }
+     .ignoresSafeArea()
     }
-}
-
+   }
 struct rap_Previews: PreviewProvider {
-    static var previews: some View {
-        rap()
-    }
+  static var previews: some View {
+    rap()
+  }
 }

@@ -9,9 +9,17 @@ import SwiftUI
 
 struct sciFiGroup1: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color(red: 0.99607843137, green: 0.94509803921, blue: 0.98431372549)
+            Image("scifi1")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+                .padding(.bottom)
+            }
+        .ignoresSafeArea()
+        }
     }
-}
+
 
 struct sciFiGroup1_Previews: PreviewProvider {
     static var previews: some View {
